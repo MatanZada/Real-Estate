@@ -4,9 +4,11 @@
 
 - Each refresh of the application will bring a photo + information (country, address, photo, price, description)
   Of the same city + street and house photography
+
   ![App Screenshot](src/image/website.png)
 
   - Clicking on the email icon will open a form for sending data
+
     ![App Screenshot](src/image/valid.png)
 
 - Range of houses in Israel
