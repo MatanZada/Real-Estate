@@ -13,12 +13,14 @@
 
 - Range of houses in Israel
 - React app
-- First rule of hooks - useEffect, useState, useMemo,useParams
 - react-router-dom
+- First rule of hooks - useEffect, useState, useMemo,useParams
+
+What is a Hook? Hook is a special function that allows you to "connect" to React features.
 
 **useEffect:** What does useEffect do? By using this Hook, we tell the reaction that your component needs to do something after rendering. React will remember the function you passed (we will refer to this as our effect), and call it after performing the DOM updates. In this effect, we set the page title, but we can additionally retrieve information or call another necessary API.
 
-**useState:** What is a Hook? Hook is a special function that allows you to "connect" to React features. For example, useState is a hook that lets you add state to functional components. We will learn about other hooks later.
+**useState:**  For example, useState is a hook that lets you add state to functional components. 
 
 **useMemo:** Returns the value returned from the function,Most often uesMemo will be used to avoid heavy runs of component performance. While useCallback will be in specific cases of combined cases and transitions of between different components.
 
