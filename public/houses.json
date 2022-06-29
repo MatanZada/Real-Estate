@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "address": "herzal 6 , Azor",
+    "country": "Israel",
+    "description": "apartment property in the central area 5 room apartment",
+    "price": 2.3,
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOKk40naILJgNpzkIWOeUTQKzgtun1FqlEiA&usqp=CAU"
+  },
+  {
+    "id": 2,
+    "address": "Its'hak Sadeh 13 , Azor",
+    "country": "Israel",
+    "description": "apartment property in the central area 3 room apartment",
+    "price": 1.3,
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBL3FNQrskZwxMdZinO1Ms8FNyBVx31vnpZg&usqp=CAU"
+  },
+  {
+    "id": 3,
+    "address": "Ben Gurion 21 , Azor",
+    "country": "Israel",
+    "description": "apartment property in the central area 3.5 room apartment",
+    "price": 1.0,
+    "photo": "https://uploads.homeless.co.il/saletivuch/201508/nvFile2966447.jpg"
+  },
+  {
+    "id": 4,
+    "address": "Dankner Towers 2 , Azor",
+    "country": "Israel",
+    "description": "apartment property in the central area 7 room apartment",
+    "price": 4.3,
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpi5MeMFfeN5-d259FA_RQevpTFn_inPdjxA&usqp=CAU"
+  }
+]

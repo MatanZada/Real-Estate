@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Real Estate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Screenshot
 
-## Available Scripts
+- Each refresh of the application will bring a photo + information (country, address, photo, price, description)
+  Of the same city + street and house photography
+  ![App Screenshot](src/image/website.png)
 
-In the project directory, you can run:
+  - Clicking on the email icon will open a form for sending data
+    ![App Screenshot](src/image/valid.png)
 
-### `npm start`
+- Range of houses in Israel
+- React app
+- First rule of hooks - useEffect, useState, useMemo,useParams
+- react-router-dom
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**useEffect:** What does useEffect do? By using this Hook, we tell the reaction that your component needs to do something after rendering. React will remember the function you passed (we will refer to this as our effect), and call it after performing the DOM updates. In this effect, we set the page title, but we can additionally retrieve information or call another necessary API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**useState:** What is a Hook? Hook is a special function that allows you to "connect" to React features. For example, useState is a hook that lets you add state to functional components. We will learn about other hooks later.
 
-### `npm test`
+**useMemo:** Returns the value returned from the function,Most often uesMemo will be used to avoid heavy runs of component performance. While useCallback will be in specific cases of combined cases and transitions of between different components.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**useParams:** The useParams hook returns an object of key/value pairs of the dynamic params from the current URL that were matched by the <Route path>. Child routes inherit all params from their parent routes.
